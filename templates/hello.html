@@ -3,8 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Hello</title>
+    <style>
+        nav{
+            width:1000;
+            height:35px;
+            background-color:#00a1cb;
+        }
+        nav .item{
+            width:auto;
+            padding:0 13px;
+            height:100%;
+            text-align:center;
+            line-height:35px;
+            float:left;
+        }
+
+        nav .item a,
+        nav .item a:activated{
+            color:#fff;
+        }
+    </style>
 </head>
 <body>
 <h1>{{hello}}</h1>
+{% include "nav.html" %}
 </body>
 </html>
