@@ -85,6 +85,9 @@ DATABASES = {
     }
 }
 
+#admin 后台管理地址 http://localhost:8000/admin/
+#用户名：forli   密码：fen!@#123
+
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
